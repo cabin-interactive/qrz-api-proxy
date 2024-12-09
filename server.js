@@ -18,6 +18,7 @@ app.post('/api', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
+        'User-Agent': req.get('User-Agent') || 'QRZ-CORS-Proxy/1.0.0',
       },
       body: new URLSearchParams(req.body).toString()
     });
