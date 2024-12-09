@@ -1,0 +1,27 @@
+{
+  "name": "qrz-api-proxy",
+  "version": "1.0.0",
+  "description": "A CORS ready proxy to the QRZ Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabin-interactive/qrz-api-proxy.git"
+  },
+  "author": "Jarrett green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cabin-interactive/qrz-api-proxy/issues"
+  },
+  "homepage": "https://github.com/cabin-interactive/qrz-api-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
